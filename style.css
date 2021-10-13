@@ -1,5 +1,7 @@
 /* UTILITIES */
-
+.border{
+    border: 5px solid black;
+}
 /*  */
 
 /* HEADER */
@@ -11,4 +13,25 @@
 
 header .btn-nav{
     background-color: #363636;
+}
+/* 1°SECTION */
+.section-one{
+    height: 800px;
+    background-image: url("./img/jumbo-bg.png");
+    background-size: cover;
+    background-position: top;
+}
+.section-one h1{
+    font-size: 35px;
+}
+/* RESPONSIVE */
+@media  screen and (max-width: 991px) {
+    .section-one-img img{
+        width: 60%;
+    }
+}
+@media  screen and (min-width: 992px) {
+    .section-one-img img{
+        width: 25%;
+    }
 }
