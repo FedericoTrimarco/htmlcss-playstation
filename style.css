@@ -4,10 +4,14 @@
     border:1px solid black
 }
 /* UTILITIES */
-/* border */
-.borderr{
-    /* border: 5px solid black; */
+/* font-size */
+.fs-45px{
+    font-size: 45px;
 }
+/* border */
+/* .borderr{
+    border: 5px solid black;
+} */
 .radius-15{
     border-radius: 15px;
 }
