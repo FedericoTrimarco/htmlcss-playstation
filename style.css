@@ -36,4 +36,10 @@ header .btn-nav{
 .section-one-text button{
     background-color: #cd3d0f;
 }
-
+/* 5°SECTION */
+.section-five{
+    height: 600px;
+    background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: top;
+}
