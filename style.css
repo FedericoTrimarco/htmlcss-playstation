@@ -1,5 +1,10 @@
+/* GENERAL */
+.box{
+    background-color: #ccc;
+    border:1px solid black
+}
 /* UTILITIES */
-.border{
+.borderr{
     border: 5px solid black;
 }
 /*  */
