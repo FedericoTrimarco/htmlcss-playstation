@@ -4,8 +4,12 @@
     border:1px solid black
 }
 /* UTILITIES */
+/* border */
 .borderr{
     border: 5px solid black;
+}
+.radius-15{
+    border-radius: 15px;
 }
 /*  */
 
@@ -33,3 +37,4 @@ header .btn-nav{
     background-color: #cd3d0f;
 }
 
+/* 2°SECTION */
