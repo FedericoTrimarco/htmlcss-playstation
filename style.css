@@ -6,10 +6,14 @@
 /* UTILITIES */
 /* border */
 .borderr{
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 .radius-15{
     border-radius: 15px;
+}
+/* background */
+.bg-site-primary{
+    background-color: #1f1f1f;
 }
 /*  */
 
@@ -38,7 +42,7 @@ header .btn-nav{
 }
 /* 5°SECTION */
 .section-five{
-    height: 700px;
+    height: 800px;
     background-image: url("./img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-position: top;
