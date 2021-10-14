@@ -8,10 +8,13 @@
 .fs-45px{
     font-size: 45px;
 }
+.fs-40px{
+    font-size: 40px;
+}
 /* border */
-/* .borderr{
+.borderr{
     border: 5px solid black;
-} */
+}
 .radius-15{
     border-radius: 15px;
 }
@@ -33,7 +36,8 @@ header .btn-nav{
 }
 /* 1°SECTION */
 .section-one{
-    height: 800px;
+    height: 900px;
+    margin-top: 125px;
     background-image: url("./img/jumbo-bg.png");
     background-size: cover;
     background-position: top;
