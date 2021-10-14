@@ -3,6 +3,10 @@
     background-color: #ccc;
     border:1px solid black
 }
+.box-green{
+    background-color: green;
+    border:1px solid black
+}
 /* UTILITIES */
 /* font-size */
 .fs-45px{
@@ -71,4 +75,8 @@ header .btn-nav{
 }
 .section-ten button{
     background-color: #fff;
+}
+/* FOOTER */
+footer{
+    background-color: #00439c;
 }
