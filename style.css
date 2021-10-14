@@ -18,10 +18,6 @@
 .mx-w{
     max-width: 650px;
 }
-/* border */
-.borderr{
-    border: 5px solid black;
-}
 .radius-15{
     border-radius: 15px;
 }
