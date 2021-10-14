@@ -11,6 +11,9 @@
 .fs-40px{
     font-size: 40px;
 }
+.mx-w{
+    max-width: 650px;
+}
 /* border */
 .borderr{
     border: 5px solid black;
