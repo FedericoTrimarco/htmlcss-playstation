@@ -80,3 +80,15 @@ header .btn-nav{
 footer{
     background-color: #00439c;
 }
+/* HOVER */
+/* 4°section */
+.section-four .section-four-mini-pic img{
+    opacity: 0.5;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.section-four .section-four-mini-pic img:hover{
+    opacity: 1;
+    border-bottom: 3px solid #00439c;
+}
