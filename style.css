@@ -52,7 +52,8 @@ header .btn-nav{
 .section-one h1{
     font-size: 35px;
 }
-.section-one-text button{
+.section-one-text button,
+.section-five-text button{
     background-color: #cd3d0f;
 }
 /* 5°SECTION */
@@ -73,6 +74,7 @@ header .btn-nav{
 .section-ten{
     background-color: #161c3b;
 }
+/* 10°SECTION */
 .section-ten button{
     background-color: #fff;
 }
@@ -82,13 +84,38 @@ footer{
 }
 /* HOVER */
 /* 4°section */
-.section-four .section-four-mini-pic img{
+.section-four .section-four-mini-pic{
     opacity: 0.5;
     border-bottom: 3px solid transparent;
     cursor: pointer;
     transition: all 0.2s;
 }
-.section-four .section-four-mini-pic img:hover{
+.section-four .section-four-mini-pic:hover{
     opacity: 1;
-    border-bottom: 3px solid #00439c;
+}
+.section-four .section-four-mini-pic:focus{
+    opacity: 1;
+    border-bottom: 3px solid #0d6efd;
+}
+/* button */
+button:hover{
+    outline: 3px solid;
+    outline-offset: 5px;
+}
+header .btn-nav:hover{
+    outline-color: #363636;
+}
+.section-four-text button:hover,
+.section-seven button:hover{
+    outline-color: #0d6efd;
+}
+.section-one-text button:hover,
+.section-five-text button:hover{
+    outline-color: #cd3d0f;
+}
+.section-eight button{
+    outline-color: #d9dadc;
+}
+.section-ten button{
+    outline-color: #fff;
 }
