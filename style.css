@@ -70,11 +70,10 @@ header .btn-nav{
 .section-eight button{
     background-color: #d9dadc;
 }
-/* 8°SECTION */
+/* 10°SECTION */
 .section-ten{
     background-color: #161c3b;
 }
-/* 10°SECTION */
 .section-ten button{
     background-color: #fff;
 }
@@ -99,8 +98,8 @@ footer{
 }
 /* button */
 button:hover{
-    outline: 3px solid;
-    outline-offset: 5px;
+    outline: 2px solid;
+    outline-offset: 2px;
 }
 header .btn-nav:hover{
     outline-color: #363636;
