@@ -96,25 +96,31 @@ footer{
     opacity: 1;
     border-bottom: 3px solid #0d6efd;
 }
+/* 2°section */
+.section-two img:hover{
+    outline: 3px solid #0d6efd;
+    outline-offset: 3px;
+    cursor: pointer;
+}
 /* button */
-button:hover{
+.btn-outlin:hover{
     outline: 2px solid;
     outline-offset: 2px;
 }
 header .btn-nav:hover{
     outline-color: #363636;
 }
-.section-four-text button:hover,
-.section-seven button:hover{
+.section-four-text .btn-outlin,
+.section-seven .btn-outlin{
     outline-color: #0d6efd;
 }
-.section-one-text button:hover,
-.section-five-text button:hover{
+.section-one-text .btn-outlin,
+.section-five-text .btn-outlin{
     outline-color: #cd3d0f;
 }
-.section-eight button{
+.section-eight .btn-outlin{
     outline-color: #d9dadc;
 }
-.section-ten button{
+.section-ten .btn-outlin{
     outline-color: #fff;
 }
